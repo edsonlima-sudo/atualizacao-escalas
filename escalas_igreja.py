@@ -76,7 +76,7 @@ def verificar_atualizacao():
 
         dados = resp.json()
 
-        nova_versao = dados.get("versao", "0.0.0.3")
+        nova_versao = dados.get("versao", "0.0.0")
 
 
 
