@@ -76,7 +76,7 @@ def verificar_atualizacao():
 
         dados = resp.json()
 
-        nova_versao = dados.get("versao", "0.0.0")
+        nova_versao = dados.get("versao", "0.0.0.3")
 
 
 
@@ -2341,12 +2341,11 @@ class SistemaEscalas:
 # ----------------------
 
 if __name__ == "__main__":
+    resultado = verificar_atualizacao()
+    print(resultado)
 
     root = tk.Tk()
-
     app = SistemaEscalas(root)
-
     root.mainloop()
-
 
 
