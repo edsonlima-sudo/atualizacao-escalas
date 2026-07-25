@@ -10,7 +10,7 @@ import urllib.request
 # ----------------------
 # CONFIGURAÇÕES DE VERSÃO E ATUALIZAÇÃO
 # ----------------------
-VERSAO_ATUAL = "1.0.3"
+VERSAO_ATUAL = "1.0.2"
 URL_VERSAO = "https://raw.githubusercontent.com/Edsonlima-sudo/atualizacao-escalas/main/versao.json"
 URL_ARQUIVO = "https://raw.githubusercontent.com/Edsonlima-sudo/atualizacao-escalas/main/escalas_igreja.py"
 
